@@ -101,3 +101,4 @@ pip install -e git+https://github.com/vispy/vispy#egg=vispy-dev
 import vispy
 vispy.test()
 ```
+	（译者注：一定要注意，这个 vispy.test 必须在用 git 同步下来的 vispy 文件夹内进行才可以，否则一定会报错的！官方文档真是太粗糙了。。。）
