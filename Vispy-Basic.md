@@ -13,7 +13,7 @@ VisPy 是一个**高性能交互式 2D/3D 数据可视化库**，通过 **OpenGL
 
 
 
-###`vispy.``use`(*app=None*, *gl=None*)[](http://vispy.org/vispy.html#vispy.use "Permalink to this definition")
+###`vispy.use`(*app=None*, *gl=None*)[](http://vispy.org/vispy.html#vispy.use "Permalink to this definition")
 
 设置 VisPy 的使用选项，指定使用的应用后端和 GL 后端。
 
@@ -58,7 +58,7 @@ VisPy 是一个**高性能交互式 2D/3D 数据可视化库**，通过 **OpenGL
 
 
 
-###`vispy.``sys_info`(*fname=None*, *overwrite=False*)[](http://vispy.org/vispy.html#vispy.sys_info "Permalink to this definition")
+###`vispy.sys_info`(*fname=None*, *overwrite=False*)[](http://vispy.org/vispy.html#vispy.sys_info "Permalink to this definition")
 
 
 获取相关的系统信息和调试信息
@@ -80,7 +80,7 @@ VisPy 是一个**高性能交互式 2D/3D 数据可视化库**，通过 **OpenGL
 >  以一个字符串的方式返回系统信息。
 
 
-###`vispy.``set_log_level`(*verbose*, *match=None*, *return_old=False*)[](http://vispy.org/vispy.html#vispy.set_log_level "Permalink to this definition")
+###`vispy.set_log_level`(*verbose*, *match=None*, *return_old=False*)[](http://vispy.org/vispy.html#vispy.set_log_level "Permalink to this definition")
 
 设定日志级别的一个函数，便于开发中的调试。
 
@@ -109,7 +109,7 @@ VisPy 是一个**高性能交互式 2D/3D 数据可视化库**，通过 **OpenGL
 
 如果 verbose=='debug'，那么 VisPy 方法发送日志消息时会返回每一个日志消息，这对于调试很有用处。如果 verbose=='debug' 或者 match 匹配字符串设置为 None，这就可能会增加一些额外的性能开销。所以除非性能问题不太重要，其他情况下不建议使用这些选项。
 
-###`vispy.``test`(*label='full'*, *extra_arg_string=''*, *coverage=False*)[](http://vispy.org/vispy.html#vispy.test "Permalink to this definition")
+###`vispy.test`(*label='full'*, *extra_arg_string=''*, *coverage=False*)[](http://vispy.org/vispy.html#vispy.test "Permalink to this definition")
 
 
 测试 VisPy 的工具
