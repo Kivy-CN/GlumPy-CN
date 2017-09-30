@@ -6,6 +6,10 @@ Tags: Python,GlumPy,Data,Visualization
 
 # GlumPy 中文文档翻译：安装指南
 
+[本文档原文地址](http://glumpy.readthedocs.io/en/latest/installation.html)
+
+本文的安装过程可能还是不够详细，Windows 用户可以参考 [我在知乎专栏这篇文章](https://zhuanlan.zhihu.com/p/25678091) 中提供的安装截图，下载[这个链接](https://pan.baidu.com/s/1qY7IxvI#list/path=%2F)里的内容会对安装过程有所帮助。
+
 ## 译者前言
 
 我弃坑了 VisPy，因为在不同操作系统上面运行的效果差距比较大，可能是因为不同操作系统的相关组件和依赖包的版本差别，或者是其他的原因吧。而且好像 GlumPy 就是对 VisPy 的继承， VisPy 的代码提交已经是几个月之前甚至几年前，GlumPy 目前还在活跃。从文档来看这二者也很相似，尤其是这部分安装指南几乎就是修改了一下的 VisPy 安装指南。
